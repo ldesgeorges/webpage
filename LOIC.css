@@ -1,0 +1,74 @@
+/* Style global */
+body {                                             /* CORP */
+    font-family: Arial, sans-serif;                /* CORP */
+    margin: 20px;                                  /* CORP */
+}
+
+header {                                           
+    text-align: center;                            /* ENTETE */
+    background-color: #0073e6;                     /* ENTETE */
+	border-radius: 5px;
+    color: #fff;                                   /* ENTETE */
+    padding: 10px;
+}
+
+#profile-image {                                   /* IMAGE */
+    width: 100px;                                  /* IMAGE */
+    border-radius: 50%;                            /* IMAGE */
+    display: inline-block;                         /* IMAGE */
+    vertical-align: middle;                        /* IMAGE */
+}                                                  
+
+nav ul {                                           /* FOND NAV */
+    background-color: #333;                        /* FOND NAV */
+	border-radius: 5px;	                           /* FOND NAV */
+    list-style: none;                              /* FOND NAV */
+    margin: 0;                                     /* FOND NAV */
+    padding: 0;                                    /* FOND NAV */
+    text-align: center;                            /* FOND NAV */
+}
+
+nav li {                                            /* LISTE */                 
+    display: inline;                                /* LISTE */ 
+    margin: 0 10px;                                 /* LISTE */ 
+}
+
+nav a {                                             /* POLICE NAV */
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {                                                /* H1 */
+    font-size: 24px;
+}
+
+section {                                           /* SECTION */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav .dropdown {                                   /* Menu Deroulant */
+    position: relative;                           /* Menu Deroulant */
+}                                                 
+												
+nav .dropdown:hover .dropdown-content {           /* PASSAGE SOURIS */
+    display: block;                               /* PASSAGE SOURIS */
+}                                                 
+												  
+nav .dropdown-content {                           /* CONTENU */
+    display: none;                                /* CONTENU */
+    position: absolute;                           /* CONTENU */
+	top: 100%;                                    /* CONTENU */
+    left: 0;                                      /* CONTENU */
+    background-color: #333;                       /* CONTENU */
+	background-color: rgba(0, 0, 0, 0.5);         /* OPACITE*/
+	border-radius: 5px;
+    min-width: 120px;                             /* CONTENU */
+    z-index: 1;                                   /* CONTENU */
+}                                                 
+												  
+nav .dropdown-content li {                        /* Menu Deroulant */
+    display: block;                               /* Menu Deroulant */
+    padding: 10px;
+}
+
